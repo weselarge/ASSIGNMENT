@@ -22,7 +22,9 @@ CMD [ "node", "app.js" ][image](./nodeJs1.png)
 * app.js: This is the application file. Create the app file and populate with this code:
 
 const express = require('express');
+
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
